@@ -3,17 +3,17 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Diego de Pablos',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Diego de Pablos | Blockchain Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `STEM PhD Graduate with a liking for cryptocurrency and Ethereum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/D-DePablos`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    // linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
     about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -25,12 +25,6 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
         name: 'Another Cool Project',
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
@@ -38,38 +32,34 @@ module.exports = {
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+        //  experience: [
+        //    {
+        //      name: 'Acme Corp',
+        //      description: 'Full-Stack Developer, February 2020 - Present',
+        //      link: 'https://github.com/RyanFitzgerald/devfolio',
+        //    },
+        //    {
+        //      name: 'Globex Corp',
+        //      description: 'Full-Stack Developer, December 2017 - February 2020',
+        //      link: 'https://github.com/RyanFitzgerald/devfolio',
+        //    },
+        //    {
+        //      name: 'Hooli',
+        //      description: 'Full-Stack Developer, May 2015 - December 2017',
+        //      link: 'https://github.com/RyanFitzgerald/devfolio',
+        //    },
+        //  ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+          'Python, Brownie, Solidity, Vyper, Javascript, React, Hardhat',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Statistics, Physics, Functional Programming',
       },
     ],
   },
